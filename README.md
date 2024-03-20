@@ -124,6 +124,11 @@ passwd -s -a > PasswordSetting.txt
 ``` Bash
 sudo /etc/security/pwquality.conf > Pwquality.txt
 ```
+OR
+``` Bash
+cat /etc/security/pwquality.conf > Pwquality.txt
+```
+
 NOTE: If the server does not have a pwquality.conf file, please provide a screenshot of the "find -name pwquality.conf" command showing the file does not exist on the server.
 
 ## Valid Login Shells
